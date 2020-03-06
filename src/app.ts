@@ -79,23 +79,17 @@ app.get('/create-tag', function (req, res, next) {
     body: {
       script_tag: {
         event: "onload",
-        src: "https://a3c18ea5.ngrok.io/my-script.js"
+        src: "https://8cac205a.ngrok.io/my-script.js"
       }
     }
   };
 
   post(options).then(function (parsedBody) {
-
     console.log(parsedBody)
-
     res.json(parsedBody)
-
   }).catch(function (err) {
-
     console.log(err)
-
     res.json(err)
-
   })
 
 })
