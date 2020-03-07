@@ -75,5 +75,9 @@ function initChatBox() {
 }
 
 window.addEventListener("load", function (evt) {
-    initChatBox();
+    // initChatBox();
 });
+
+(function () {
+    initChatBox();
+}())

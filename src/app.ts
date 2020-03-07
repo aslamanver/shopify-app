@@ -79,7 +79,7 @@ app.get('/create-tag', function (req, res, next) {
     body: {
       script_tag: {
         event: "onload",
-        src: "https://8cac205a.ngrok.io/my-script.js"
+        src: "https://aslamanver.github.io/shopify-app/public/my-chat-script.js"
       }
     }
   };
