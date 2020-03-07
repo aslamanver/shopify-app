@@ -64,7 +64,7 @@ function initChatBox() {
 
     style.type = "text/css";
     style.rel = "stylesheet";
-    style.href = '/public/my-chat-style.css';
+    style.href = 'https://aslamanver.github.io/shopify-app/public/my-chat-style.css';
 
     head.appendChild(style);
 
