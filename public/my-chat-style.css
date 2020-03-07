@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans|Open+Sans&display=swap");
+
+.my-chat-bot {
+  width: 300px;
+  position: fixed;
+  background: #f4f4f4;
+  bottom: 5px;
+  right: 5px;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10pt;
+}
+
+.cb-head {
+  color: rgba(1, 1, 1, 0.7);
+  height: auto;
+  background: #ccc;
+  text-align: center;
+  padding: 15px 5px 15px 5px;
+}
+
+.cb-body {
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+}
+
+.cb-footer {
+  width: 100%;
+  background: #dadada;
+  bottom: 0;
+}
+
+.ft-wrapper {
+  padding: 5px;
+  display: flex;
+}
+
+.input-area {
+  float: left;
+  width: 100%;
+}
+
+.submit-area {
+  width: 100px;
+  float: right;
+  padding-left: 10px;
+}
+
+.input-area input {
+  width: 100%;
+  height: 20px;
+}
+
+.submit-area button {
+  width: 100%;
+  height: 25px;
+}
+
+.my-chat {
+  width: 100%;
+}
+
+.my-chat-body {
+  margin: 5px;
+  padding: 10px;
+  background: white;
+  border: 1px solid #f1f1f1;
+  width: fit-content;
+}
+
+.copy-text {
+  background: rgba(1, 1, 1, 0.07);
+  text-align: center;
+  padding: 3px;
+  font-size: 8pt;
+  color: rgba(1, 1, 1, 0.7);
+}
+
+/* .me-chat {
+  text-align: right;
+}
+
+.me-chat .my-chat-body {
+  display: inline-flex;
+} */
